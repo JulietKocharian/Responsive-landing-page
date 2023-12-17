@@ -1,0 +1,86 @@
+ @media only screen and (max-width: 767px) {
+     .experts-btn {
+         width: auto;
+     }
+
+     .girl, 
+     .childs,
+     .fam {
+         width: 100%;
+     }
+
+     .subscribe-btn {
+         padding: 0;
+     }
+
+     .company-info {
+         margin-top: 40px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     .most-pop-cols {
+        margin-bottom: 20px;
+     }
+    .header-title {
+        font-size: 28px;
+    }
+    .video-text {
+        width: auto;
+    }
+    .most-pop-images {
+        width: auto;
+    }
+    .pop-body {
+        margin: auto;
+    }
+}
+
+ @media only screen and (min-width: 768px) and (max-width:1024px) {
+     .header-col {
+         margin-top: 340px;
+     }
+
+     .header-col,
+     .courses-col,
+     .courses-col-one,
+     .exp-col,
+     .video-cols,
+     .designers-courses
+     {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .header-title,
+     .header-subtitle,
+     .header-text,
+     .pop-text,
+     .courses-text,
+     .experts-text,
+     .education-text {
+         text-align: center;
+     }
+
+     .course-section {
+         padding: 160px 0;
+     }
+
+     .company-info.get-in-touch {
+         margin-top: 40px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .most-pop-cols {
+         margin-top: 40px;
+     }
+ }
+
+ @media only screen and (min-width: 1024px) {
+     .footer {
+         width: 1049px;
+     }
+ }
