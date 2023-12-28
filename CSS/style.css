@@ -39,17 +39,17 @@ body {
 }
 
 .header-button {
+    gap: 15px;
     width: 137px;
     height: 52px;
+    border: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #FF6551;
-    border-radius: 5px;
-    gap: 15px;
     color: white;
     cursor: pointer;
-    border: none;
+    border-radius: 5px;
+    align-items: center;
+    background: #FF6551;
+    justify-content: center;
 }
 
 .header-col {
@@ -57,23 +57,23 @@ body {
 }
 
 .header-subtitle {
-    font-weight: 700;
     font-size: 16px;
+    font-weight: 700;
     color: #FF6551;
     margin-bottom: 30px;
 }
 
 .header-title {
-    font-weight: 700;
     font-size: 58px;
+    font-weight: 700;
     color: #252B42;
     margin-bottom: 20px;
 }
 
 .header-text {
     width: 338px;
-    font-weight: 400;
     font-size: 20px;
+    font-weight: 400;
     color: #737373;
 }
 
@@ -82,22 +82,22 @@ body {
 }
 
 .pop-subtitle {
-    font-weight: 700;
     font-size: 14px;
+    font-weight: 700;
     color: #FF6551;
 }
 
 .pop-title {
-    font-weight: 700;
     font-size: 40px;
     color: #252B42;
+    font-weight: 700;
     margin-top: 10px;
 }
 
 .pop-text {
-    font-weight: 400;
     font-size: 14px;
     color: #737373;
+    font-weight: 400;
     margin-top: 10px;
 }
 
@@ -108,13 +108,13 @@ body {
 }
 
 .popular-section .cards {
-    margin-top: 160px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 35px 40px;
     width: 328px;
     height: 296px;
+    margin-top: 160px;
+    padding: 35px 40px;
+    flex-direction: column;
+    align-items: flex-start;
     background-color: #FFFFFF;
     box-shadow: 0px 13px 19px #00000012;
 
@@ -128,26 +128,26 @@ body {
 .card-title {
     width: 221px;
     height: 32px;
-    font-weight: 700;
     font-size: 24px;
+    font-weight: 700;
     color: #252B42;
     margin-top: 10px;
 }
 
 .line {
+    top: 179px;
+    left: 40px;
     width: 50px;
     height: 2px;
     background-color: #E74040;
-    top: 179px;
-    left: 40px;
 }
 
 .card-text {
-    margin-top: 20px;
     width: 222px;
     height: 60px;
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
     color: #737373;
 }
 
@@ -166,8 +166,8 @@ body {
 
 .courses-title {
     height: 32px;
-    font-weight: 700;
     font-size: 24px;
+    font-weight: 700;
     color: #252B42;
 }
 
@@ -181,11 +181,11 @@ body {
 
 .training-course {
     display: flex;
-    flex-direction: row;
+    margin-left: 20px;
     align-items: center;
     background: #FFFFFF;
     margin-bottom: 60px;
-    margin-left: 20px;
+    flex-direction: row;
 }
 
 .courses-description {
@@ -320,14 +320,13 @@ body {
 }
 
 .qualificated {
+    gap: 10px;
+    height: 26px;
     display: flex;
+    margin-top: 25px;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    width: 298px;
-    height: 26px;
-    margin-top: 25px;
 }
 
 .most-pop-link {
@@ -487,8 +486,8 @@ body {
     align-items: center;
     padding: 15px 40px;
     gap: 10px;
-    height: 52px;
-    width: 250px;
+    height: 10%; 
+    width: 100%;
     background: #FF6551;
     border-radius: 5px;
     font-weight: 700;

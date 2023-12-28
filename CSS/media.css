@@ -1,18 +1,22 @@
- @media only screen and (max-width: 767px) {
+ @media  (max-width: 768px){
      .experts-btn {
          width: auto;
      }
 
      .girl, 
-     .childs,
      .fam {
          width: 100%;
      }
-
+     .childs{
+        margin: 0;
+     }
+     .girl {
+        width: auto;
+        max-width: 100%;
+     }
      .subscribe-btn {
          padding: 0;
      }
-
      .company-info {
          margin-top: 40px;
          display: flex;
@@ -25,6 +29,9 @@
     .header-title {
         font-size: 28px;
     }
+    .header-text{
+        width: auto;
+    }
     .video-text {
         width: auto;
     }
@@ -33,6 +40,16 @@
     }
     .pop-body {
         margin: auto;
+    }
+    .popular-section .cards {
+        width: auto;
+    }
+    .courses-description {
+        margin: 0;
+        width: auto;
+    }
+    .new{
+        right: 0;
     }
 }
 
