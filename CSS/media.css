@@ -26,6 +26,9 @@
      .most-pop-cols {
         margin-bottom: 20px;
      }
+    .header-col{
+        margin-top: 300px !important;
+    }
     .header-title {
         font-size: 28px;
     }
@@ -51,6 +54,19 @@
     .new{
         right: 0;
     }
+    .nav-link{
+        margin-left: auto !important;
+    }
+    .nav-item{
+        margin-left: auto !important;
+    }
+    .form-inline{
+        display: block  !important;
+        margin-left: 61% !important;
+    }
+    .header-link{
+        margin-left: 75% !important;
+    }
 }
 
  @media only screen and (min-width: 768px) and (max-width:1024px) {
@@ -69,6 +85,19 @@
          flex-direction: column;
          align-items: center;
      }
+     .nav-link{
+        margin-left: auto !important;
+    }
+    .nav-item{
+        margin-left: auto !important;
+    }
+    .form-inline{
+        display: block  !important;
+        margin-left: 73% !important;
+    }
+    .header-link{
+        margin-left: 75% !important;
+    }
 
      .header-title,
      .header-subtitle,
